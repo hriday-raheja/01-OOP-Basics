@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+
+class Calculator
+{
+public:
+    int add(int a, int b)
+    {
+        return a + b;    // returns sum
+    }
+
+    int sub(int a, int b)
+    {
+        return a - b;    // returns difference
+    }
+
+    int mul(int a, int b)
+    {
+        return a * b;    // returns product
+    }
+};
+
+int main()
+{
+    Calculator c;       // creating object
+    int x,y;
+
+    cout<<"Enter two numbers: ";
+    cin>>x>>y;
+
+    cout<<"\nAddition: "<<c.add(x,y);   // calling add
+    cout<<"\nSubtraction: "<<c.sub(x,y); // calling sub
+    cout<<"\nMultiplication: "<<c.mul(x,y); // calling mul
+
+    return 0;
+}
+
