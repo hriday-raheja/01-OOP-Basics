@@ -1,8 +1,6 @@
-# Day-5: Abstract Class & Interface (C++)
+# Abstract Class & Interface
 
 This folder contains Object Oriented Programming programs written in C++ that demonstrate the concepts of **abstract classes** and **interfaces**. These concepts help in achieving abstraction and defining contracts for derived classes.
-
-The programs are designed as per the **CS305 – Object Oriented Programming & Methodology** syllabus.
 
 ---
 
